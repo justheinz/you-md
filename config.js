@@ -13,7 +13,6 @@ module.exports = {
     ANTI_CALL: process.env.ANTI_CALL || "false",
     CUSTOM_STATUS_EMOJIS: process.env.CUSTOM_STATUS_EMOJIS || "❤️,✨,🔥,💯,👑",
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*𝐘𝐎𝐔 𝐌𝐃 𝐕𝐈𝐄𝐖𝐄𝐃✅*",
-    CHAT_BOT: process.env.CHAT_BOT || "true",
 
     // ====== Anti-Delete Config ======
     ANTI_DELETE: process.env.ANTI_DELETE || "false",       // true/false to enable anti-delete
@@ -28,7 +27,7 @@ module.exports = {
     ANTI_LINK: process.env.ANTI_LINK || "false",
     MENTION_REPLY: process.env.MENTION_REPLY || "false",
     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/wnyveu.jpg",
-    PREFIX: process.env.PREFIX || "±",
+    PREFIX: process.env.PREFIX || ".",
     AUTO_BIO: process.env.AUTO_BIO || "true",
     TIME_ZONE: process.env.TIME_ZONE || "Asia/Kolkata",
     BOT_NAME: process.env.BOT_NAME || "𝚈𝙾𝚄 𝙼𝙳 𝙱𝙾𝚃",
@@ -36,7 +35,7 @@ module.exports = {
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
     DELETE_LINKS: process.env.DELETE_LINKS || "true",
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "56945031186",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "56945031186","529541094055",
     OWNER_NAME: process.env.OWNER_NAME || "𝚈𝙾𝚄 𝚃𝙴𝙲𝙷𝚇",
     DESCRIPTION: process.env.DESCRIPTION || "> *𝙼𝙰𝙳𝙴 𝙸𝙽 𝙱𝚈 𝚈𝙾𝚄 𝚃𝙴𝙲𝙷𝚇*",
     ALIVE_IMG: process.env.ALIVE_IMG || "https://h.uguu.se/HLtauNcE.jpg",
@@ -56,7 +55,8 @@ module.exports = {
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
     AUTO_TYPING: process.env.AUTO_TYPING || "true",
     READ_CMD: process.env.READ_CMD || "false",
-    DEV: process.env.DEV || "56945031186",
+    DEV: process.env.DEV || "56945031186","529541094055",
     ANTI_VV: process.env.ANTI_VV || "true",
+    AUTO_AI: process.env.AUTO_AI || "true",
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
 };
